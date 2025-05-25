@@ -1,0 +1,27 @@
+{
+  "version": "1.0.0",
+  "author": "",
+  "description": "",
+  "name": "ez-web-search-mcp",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node build/index.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "cheerio": "^1.0.0",
+    "axios": "^1.9.0",
+    "zod": "^3.25.28"
+  },
+  "keywords": [],
+  "main": "build/index.js",
+  "devDependencies": {
+    "@types/axios": "^0.9.36",
+    "typescript": "^5.8.3",
+    "@types/node": "^22.15.21",
+    "@types/cheerio": "^0.22.35"
+  },
+  "license": "ISC"
+}
